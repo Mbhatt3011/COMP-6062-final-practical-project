@@ -1,0 +1,71 @@
+body {
+  background-color: #f0f4f8;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+  padding-top: 20px;
+}
+
+/* Header Styling */
+header h1 {
+  background-color: #0d6efd;
+  color: white;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Box */
+.ProfileUpdates {
+  background-color: #ffffff;
+  border: 2px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Weather Box */
+.WeatherUpdates {
+  background-color: #e3f2fd;
+  border: 2px solid #90caf9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(33, 150, 243, 0.2);
+}
+
+/* Dictionary Box */
+.Word {
+  background-color: #f1f8e9;
+  border: 2px solid #aed581;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(139, 195, 74, 0.2);
+}
+
+/* Button Styling */
+button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Input Spacing */
+input.form-control {
+  margin-bottom: 10px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    header h1 {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
